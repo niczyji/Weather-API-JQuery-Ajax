@@ -1,0 +1,86 @@
+body {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+   
+ }
+
+nav {
+    background-color:gray; 
+    /* transparent */
+    opacity: 0.6;  
+    margin-bottom: 30px;
+}
+
+nav #navTitle {
+    color: white;
+    margin-left: 260px;
+    margin-right: 20px;
+}
+nav #inputfield {
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+    opacity: 1 !important;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 20px;
+    padding-left: 5px;
+    }
+
+.btn {
+    height: 30px;
+    text-align: center;
+    line-height: 0;
+}
+
+
+    /* font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+ */
+
+
+.jumbotron {
+    background-image: url('img/proxy.duckduckgo.com.jpg');
+    background-size:cover;
+    width: 800px;
+    height: 400px;
+    z-index: 1;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0;
+    /* center DIV */
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}
+
+ .content:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+    /* Background Image */
+    background-image: url('img/creek_by_snomanda_dct3i1t-fullview.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    /* BLUR BACKGROUND-IMAGE */
+    filter: blur(5px);
+  }
+  
+  
+  /* P Tag CSS */
+  .content p {
+    margin: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    box-shadow: 0 0 5px gray;
+  }
+

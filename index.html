@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Weather API JQuery, Ajax</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Fonts Google -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"> 
+    <!-- My Style -->
+    <link rel="stylesheet" type="text/css" href="views/style.css" />
+</head>
+
+<body >
+    <header class="content">
+        <!-- Navbar  -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+            <h2 id="navTitle">Weather in your City</h2>
+            <div class="collapse navbar-collapse flex-grow-0">
+                <input type="text" id="inputfield" placeholder="Enter City Name..."></input>
+                <button id="btn" class="btn btn-default navbar-right">Fetch Temperature</button>
+            </div>
+        </nav>
+        <!-- Navbar END -->
+      </header>
+
+      <!-- <hr>
+      <h1>Weather in your City</h1>
+      <input type="text" id="inputfield" placeholder="Enter City Name..."></input>
+      <button id="btn" class="btn btn-default">Fetch Temperature</button>
+      <hr> --> 
+        <div class="container">
+            <div class="jumbotron">
+                <div id="dupa"></div>
+                <div id="htmlCityDataDiv"></div>
+                <div id="htmlTemperatureDiv"></div>
+                <div id="htmlIconDiv"></div>
+                <div id="htmlDataDiv"></div>
+                <div id="htmlDescriptions"></div>
+            </div>
+        </div>
+      
+      <!-- icon -->
+      <!-- <p>Weather in your City: Cologne, DE</p> -->
+      <!-- <p>Weather: Drizzle</p>
+      <p>Description: light intensity drizzle rain</p> -->
+      <!-- <p>Temperature: 8.26 &deg;C</p>
+      <p>Atmospheric pressur: 1008 hPa</p> -->
+      <!-- <p>Humidity: 81%</p>
+      <p>Cloudiness: 75%</p> -->
+      <!-- <p>Min. Temperature: 8 &deg;C</p> -->
+      <!-- <p>Max. Temperature: 9 &deg;C</p> -->
+      <!-- <p>Wind Speed: 5.7km/h</p> -->
+
+    <script src="apps.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
